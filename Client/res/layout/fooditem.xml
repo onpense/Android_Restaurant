@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+
     android:orientation="horizontal" >
 
     <TextView
@@ -10,6 +11,8 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:text="TextView" />
+
+   
 
     <TextView
         android:id="@+id/tv_dishname"
@@ -25,25 +28,33 @@
         android:layout_marginLeft="50dp"
         android:text="TextView" />
 
-   
-
-    <ImageView
+  
+       <ImageView
         android:id="@+id/iv_jian"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="50dp"
         android:src="@drawable/jian" />
 
-    <Button
-        android:id="@+id/button_count"
+   <EditText
+        android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="count" />
+   
+        android:text="0" >
+
+        <requestFocus />
+    </EditText>
 
     <ImageView
         android:id="@+id/iv_jia"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/jia" />
+
+
+    
+    
+    
   
 </LinearLayout>

@@ -36,7 +36,7 @@ public class IPSetActivity extends Activity implements OnClickListener{
 
 		
 		ed=(EditText) findViewById(R.id.edit_ip);
-		ed.setText("192.168.7.114");
+		ed.setText("192.168.1.11");
 	//	String str=ed.getText().toString().trim();
 		
 		btn=(Button) findViewById(R.id.button1);

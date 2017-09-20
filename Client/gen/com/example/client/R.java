@@ -49,7 +49,7 @@ public final class R {
         public static final int button1=0x7f080002;
         public static final int button2=0x7f080005;
         public static final int button3=0x7f080006;
-        public static final int button_count=0x7f080011;
+        public static final int editText1=0x7f080011;
         public static final int edit_ip=0x7f080001;
         public static final int iv_jardiniere=0x7f080009;
         public static final int iv_jia=0x7f080012;

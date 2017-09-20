@@ -21,6 +21,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -177,8 +178,8 @@ public class FoodActivity extends Activity implements OnClickListener{
 			iv_jia.setOnClickListener(this);
 			iv_jia.setTag(position);
 			
-			Button bt_count=(Button) view.findViewById(R.id.button_count);
-			bt_count.setText(String.valueOf(dish.count));
+			EditText et=(EditText) view.findViewById(R.id.editText1);
+			et.setText(String.valueOf(dish.count));
 			return view;
 		}
 
