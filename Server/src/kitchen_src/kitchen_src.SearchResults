@@ -1,0 +1,4 @@
+---- db_open_file Matches (3 in 2 files) ----
+Db_encap.c (src):sqlite3 *db_open_file(const char *path_name)
+Db_encap.c (src):	db = db_open_file(DB_FILE);
+Db_encap.h (inc):extern sqlite3 *db_open_file(const char *path_name);
